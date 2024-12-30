@@ -9,12 +9,12 @@ const DonationStats = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center p-8 bg-white w-full space-x-8">
+    <div className="flex justify-between items-center p-8 bg-white w-full">
       {stats.map((stat, index) => (
-        <div key={index} className="flex items-center space-x-2"> {/* Number and label beside each other */}
+        <div key={index} className="flex items-center space-x-2">
           {/* Stat Value */}
           <div className="text-7xl text-orange-500 font-semibold">{stat.value}</div>
-          {/* Label */}
+          {/* Stat Label */}
           <span className="text-lg text-gray-700 font-medium">{stat.label}</span>
         </div>
       ))}

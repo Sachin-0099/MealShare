@@ -50,6 +50,8 @@ const Testimonials = () => {
             key={index}
             className="bg-gray-300 shadow-md rounded-lg p-6 relative"
           >
+            {/* Orange Shadow Effect */}
+            <div className="absolute -bottom-4 -left-4 bg-orange-300 h-8 w-8 rounded-lg"></div>
             
             <div className="flex items-center space-x-4">
               <img

@@ -5,13 +5,13 @@ const HeroSection = () => {
     <section className="relative h-screen flex items-center justify-center text-white ">
       {/* Background Image */}
       
-      <div className="absolute inset-0 -z-10"></div>
+      
         <img
             src="/images/young-indian-family-in-delhi-india-DRHB05 2.png"
             alt="Hero Background"
             className="absolute inset-0 w-full h-full object-cover -z-10"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-60 -z-10"></div>
           
       
       {/* Content */}

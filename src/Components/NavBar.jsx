@@ -3,7 +3,9 @@ import React from "react";
 const NavBar = () => {
   return (
     <nav className="flex justify-between items-center px-8 py-4 bg-white mb-4">
-      <div className="text-xl font-bold text-orange-500">MealShare</div>
+      
+      <img src='/images/logo-png.png' alt='logo' className="w-20 h-20 object-contain rounded-full"></img>
+      
       <ul className="flex space-x-6 text-gray-700">
         <li className="font-bold text-orange-500 hover:underline text-xl cursor-pointer">Home</li>
         <li className="font-bold text-orange-500 hover:underline text-xl cursor-pointer">About</li>
