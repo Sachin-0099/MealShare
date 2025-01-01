@@ -3,6 +3,8 @@ import ContactUs from './components/ContactUs'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './components/Login'
+import About from './pages/About'
+import Services from './pages/Services'
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <Route path='/' element={<Home/>}/>
       <Route path='/contact' element={<ContactUs/>}/>
       <Route path='/Login' element={<Login/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Services' element={<Services/>}/>
     </Routes>
   )
 }
