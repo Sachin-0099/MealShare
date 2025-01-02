@@ -3,7 +3,7 @@ import NavBar from '../components/HomeComponents/NavBar'
 import HeroSection from '../components/HomeComponents/HeroSection'
 import DonationStats from  '../components/HomeComponents/DonationStats'
 import GoalSection from '../components/HomeComponents/GoalSection'
-import CardSection from '../components/HomeComponents/CardSection'
+import CardSection from '../components/CardSection'
 import DonateSection from '../components/HomeComponents/DonateSection'
 import Testimonials from '../components/HomeComponents/Testimonials'
 
