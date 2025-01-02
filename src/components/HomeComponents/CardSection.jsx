@@ -1,5 +1,5 @@
 import React from 'react';
-import CardHome from './CardHome'
+import CardHome from '../CardHome'
 
 
 const data = [
