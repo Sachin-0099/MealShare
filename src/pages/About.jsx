@@ -1,5 +1,5 @@
 import React from 'react'
-import Work from '../Components/Work'
+import Work from '../components/Work'
 import PeopleSection from '../components/PeopleSection'
 import AboutUs from '../components/AboutUs'
 
