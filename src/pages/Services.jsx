@@ -1,6 +1,6 @@
 import React from 'react'
-import Servicecard from '../components/OurServices'
-import OurServices from '../components/OurServices'
+import OurServices from '../components/ServicesComponents/OurServices'
+
 
 const Services = () => {
   return (
