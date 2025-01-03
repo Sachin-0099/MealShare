@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const PeopleCard = ({ profileImg, name, title, description }) => {
   return (
