@@ -1,11 +1,11 @@
 import React from 'react'
-import NavBar from '../components/HomeComponents/NavBar'
-import HeroSection from '../components/HomeComponents/HeroSection'
-import DonationStats from  '../components/HomeComponents/DonationStats'
-import GoalSection from '../components/HomeComponents/GoalSection'
+import NavBar from '../components/NavBar'
+import HeroSection from '../components/HeroSection'
+import DonationStats from  '../components/DonationStats'
+import GoalSection from '../components/GoalSection'
 import CardSection from '../components/CardSection'
-import DonateSection from '../components/HomeComponents/DonateSection'
-import Testimonials from '../components/HomeComponents/Testimonials'
+import DonateSection from '../components/DonateSection'
+import Testimonials from '../components/Testimonials'
 
 
 const Home = () => {
