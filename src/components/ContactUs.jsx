@@ -9,22 +9,22 @@ const ContactUs = () => {
                 <div className='h-[45vh] w-[90%]'>
                     <h1 className='font-semibold p-1 text-white text-[1.6em]'>Contact Us</h1>
                     <div className='h-[9vh] w-[30vh] p-5 mx-3 my-2 flex justify-between items-center'>
-                        <i class="ri-map-pin-2-line text-white text-[1.8em]"></i>
+                        <i className="ri-map-pin-2-line text-white text-[1.8em]"></i>
                         <p className='text-white transition duration-300 ease-in-ease-out hover:scale-110 hover:underline'>H-63, Suite-163<br/>
                             Noida-63A<br/>
                             Uttar Pradesh
                         </p>
                     </div>
                     <div className='h-[9vh] w-[28vh] p-5 mx-3 my-2 flex justify-between items-center'>
-                        <i class="ri-smartphone-line text-white text-[1.8em]"></i>
+                        <i className="ri-smartphone-line text-white text-[1.8em]"></i>
                         <p className='text-white transition duration-300 ease-in-ease-out hover:scale-110 hover:underline'>+9192929256</p>
                     </div>
                     <div className='h-[9vh] w-[31vh] p-5 mx-3 my-2 flex justify-between items-center'>
-                        <i class="ri-mail-open-line text-white text-[1.8em]"></i>
+                        <i className="ri-mail-open-line text-white text-[1.8em]"></i>
                         <p className='text-white transition duration-300 ease-in-ease-out hover:scale-110 hover:underline'>hello@gmail.com</p>
                     </div>
                     <div className='h-[9vh] w-[28vh] p-5 mx-3 my-2 flex justify-between items-center'>
-                        <i class="ri-phone-line text-white text-[1.8em]"></i>
+                        <i className="ri-phone-line text-white text-[1.8em]"></i>
                         <p className='text-white transition duration-300 ease-in-ease-out hover:scale-110 hover:underline'>+9192929256</p>
                     </div>
                 </div> 
@@ -38,7 +38,7 @@ const ContactUs = () => {
                         <input type='email' placeholder='Email' className='h-[7vh] w-[95%] p-7 mt-10 text-[1em] border-[2px] outline-none bg-[#f8f8f8] border-[#000] border-opacity-[0.25] shadow-zinc-300 rounded-lg'/>
                         <textarea placeholder='About Us' className='h-[18vh] w-[95%] p-7 mt-10 text-[1em] border-[2px] outline-none bg-[#f8f8f8] border-[#000] border-opacity-[0.25] shadow-zinc-300 rounded-lg'/>
                     </form>
-                    <Button text='Submit'/>
+                    <Button text={Submit}/>
                 </div>
             </div>
         </div>
