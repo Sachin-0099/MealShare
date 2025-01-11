@@ -6,6 +6,7 @@ import GoalSection from '../components/GoalSection'
 import CardSection from '../components/CardSection'
 import DonateSection from '../components/DonateSection'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <CardSection />
       <DonateSection />
       <Testimonials />
+      <Footer/>
     </div>
   )
 }

@@ -55,7 +55,7 @@ const PeopleSection = () => {
         Our passionate team is dedicated to creating a world where no food goes to waste, and no one goes hungry.
       </p>
 
-      <div className="relative grid grid-cols-2 gap-10 m-5 p-4">
+      <div className="relative grid grid-cols-2 gap-10 m-5 p-40">
         {data.map((person) => (
           <div key={person.id} className={`absolute ${getPositionClassName(person.id)}`}>
             <PeopleCard {...person} />
