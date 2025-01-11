@@ -13,25 +13,25 @@ const Login = () => {
         };
 
   return (
-    <div className='min-h-screen w-full bg-[#FFE0CC] overflow-hidden'>
+    <div className='w-full bg-[#FFE0CC] overflow-hidden'>
         <div className='flex h-[100vh] w-full flex-wrap'>
-            <div className='h-[100vh] w-[60vw]'>
+            <div className='lg:h-[100vh] md:h-[100vh] h-[50vh] w-[100vw] md:w-[55vw] lg:w-[60vw]'>
                 <img src={login} alt="" className='h-full w-full object-cover'/>
             </div>
-            <div className='h-[100vh] w-[38vw] flex justify-center items-center'>
-                <div className='w-[36vw] h-[85%] mt-10 p-5 h-full'>
-                    <h1 className='text-[2.5em] font-semibold'>Sign in to <span className='text-[#F24822]'>MealShare</span></h1>
+            <div className='lg:h-[100vh] lg:w-[38vw] md:w-[38vw] w-[100vw] flex justify-center items-center'>
+                <div className='lg:w-[36vw] md:w-[36vw] sm:w-[100vw] h-[85%] mt-10 p-5 h-full'>
+                    <h1 className='lg:text-[2.5em] md:text-[1.5em] text-[1.3em] md:bg-red-100 font-semibold'>Sign in to <span className='text-[#F24822]'>MealShare</span></h1>
                     <form>
-                        <input type='email' placeholder='Email' className='h-[7vh] w-[95%] p-5 mt-10 text-[1em] border-[2px] outline-none bg-[#f8f8f8] border-[#000] border-opacity-[0.25] shadow-zinc-300 font-semibold rounded-lg'/>
-                        <input type='password' placeholder='Password' className='h-[7vh] w-[95%] p-5 mt-10 text-[1em] border-[2px] outline-none bg-[#f8f8f8] font-semibold border-[#000] border-opacity-[0.25] shadow-zinc-300 rounded-lg'/>
-                        <div className='w-[32vw] px-2 items-center flex flex-wrap justify-between pt-2 mt-2'>
-                            <i class={`${isChecked ? 'ri-checkbox-line' : 'ri-square-line'} text-[1.1rem]`} onClick={handleClick}>
+                        <input type='email' placeholder='Email' className='h-[7vh] w-[95%] p-5 lg:mt-10 md:mt-10 mt-6 text-[1em] border-[2px] outline-none bg-[#f8f8f8] border-[#000] border-opacity-[0.25] shadow-zinc-300 font-semibold rounded-lg'/>
+                        <input type='password' placeholder='Password' className='h-[7vh] w-[95%] p-5 lg:mt-10 md:mt-10 mt-6 text-[1em] border-[2px] outline-none bg-[#f8f8f8] font-semibold border-[#000] border-opacity-[0.25] shadow-zinc-300 rounded-lg'/>
+                        <div className='lg:w-[32vw] md:w-[34vw] sm:w-[70vw] px-2 items-center flex flex-wrap justify-between pt-2 mt-2'>
+                            <i className={`${isChecked ? 'ri-checkbox-line' : 'ri-square-line'} text-[1.1rem] md:text-[1em]`} onClick={handleClick}>
                             Remember Me
                             </i>
-                            <p className='text-[#000] opacity-50 hover:opacity-70'>Forget Password?</p>
-                            <div className='w-[36vw] mt-5 py-[10px] rounded-[20px] text-[1em] text-center bg-[#D70606] text-white hover:bg-red-700 font-semibold'>
-                                <h1>Sign In</h1>
-                            </div>
+                            <Link className='text-[#000] opacity-50 hover:opacity-70'>Forget Password?</Link>
+                        </div>
+                        <div className='lg:w-[36vw] md:w-[36vw] w-[70vw] mt-5 py-[10px] rounded-[20px] text-[1em] text-center bg-[#D70606] text-white hover:bg-red-700 font-semibold'>
+                            <h1>Sign In</h1>
                         </div>
                     </form>
                     <div className='w-[36vw] h-[10vh] mt-10'>
